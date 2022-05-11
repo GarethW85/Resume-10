@@ -19,3 +19,7 @@
 .footer-body {
   height: 20px;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
