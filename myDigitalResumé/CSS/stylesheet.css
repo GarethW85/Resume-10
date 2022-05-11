@@ -2,13 +2,17 @@
   padding: 0%; 
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .text-color {
   color: #fff;
 }
 
-.background-color {
+/* .background-color {
   background-color: #e3f2fd;
-}
+} */
 
 
 /* set form element to table so that we can style it */
@@ -16,10 +20,25 @@
   width: 100%;
 }
 
-.footer-body {
+/* .footer-body {
   height: 20px;
+} */
+
+
+
+/* Profile Images Styled in footer  */
+
+#profileImage {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
+/* animation changes */
+
+.animation-style {
+  --animate-duration: 800ms;
+  --animate-delay: s;
+  
 }
