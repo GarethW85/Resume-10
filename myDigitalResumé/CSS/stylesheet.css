@@ -1,9 +1,11 @@
 * { 
   padding: 0%; 
+  overflow-x: hidden;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif; 
+  position: relative
 }
 
 .text-color {
@@ -13,7 +15,7 @@ body {
 
 /* set form element to table so that we can style it */
 .btn-form {
-  width: 100%;
+  width: 20%;
 }
 
 /* Profile Images Styled in footer  */
@@ -39,17 +41,46 @@ color: text-white;
 
 
 #education {
-    background-color:#3dae84 ;
+    background-color: #41a4f5;
     position: center;
     background-size: cover;
     height: 100vh; //Change this as per design needs
     width: 100%; //Change this as per design needs
   }
 
+.main-color {
+  background-color: #41a4f5;
+}
+
+.navbar-color {
+  background-color: #3769b3;
+}
+
+
+
+
+
+/* Media Queries */
+
+/* Phones and smaller */
+@media screen and (min-width:340px) and (max-width:420px) {
+  .hero-section {
+    text-align: center;  
+  }
+
+  .hero-section img {
+    padding-left: 30%;
+  }
+}
+
+
+
+
+
+
 
 
 /* Experience section */
-
 
 
 
