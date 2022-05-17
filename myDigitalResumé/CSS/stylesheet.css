@@ -12,13 +12,17 @@ body {
   color: #fff;
 }
 
+h2 {
+  text-align: center;
+}
+
 
 /* set form element to table so that we can style it */
 .btn-form {
   width: 20%;
 }
 
-/* Profile Images Styled in footer  */
+/* Profile Images Styled in footer -small footer photo */
 
 #profileImage {
   border-radius: 50%;
@@ -75,10 +79,6 @@ a:active {
 
 
 
-
-
-
-
 /* Media Queries */
 
 /* Phones and smaller */
@@ -96,10 +96,6 @@ a:active {
   }
 
 }
-
-
-/* Tablets and bigger */
-
 
 
 

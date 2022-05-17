@@ -32,13 +32,16 @@
         <a class="nav-link text-white" aria-current="page" href="#">Home</a>
       </li>
       <li class="nav-item ">
+        <a class="nav-link text-white" href="#aboutme">About Me</a>
+      </li>
+      <li class="nav-item ">
         <a class="nav-link text-white" href="#experience">Experience</a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-white" href="#skills">Skills</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white" href="#contact">Contact</a>
+        <a class="nav-link text-white contact-btn" href="#contact">Contact</a>
       </li>
     </ul>
   </nav>
@@ -64,12 +67,12 @@
             <p class="text-white animate__animated animate__fadeInLeft">Hello, my name is</p>
             <h5 class="text-white display-5 fw-bold lh-1 mb-3 animate__animated animate__fadeInLeft animation-style">Gareth Williams</h5>
             <p class="lead text-white animate__animated animate__fadeInLeft">I'm a Front-End Developer and Designer
-              specialising in frontend development with a design background. Want to know how I may help your project?
-              Take a look below.</p>
+              
+            </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start ">
               <button type="button"
                 class="btn btn-lg px-4 me-md-2 rounded-pill text-white animate__animated animate__fadeInLeft animation-style navbar-color btn-visited"><a
-                  href="#experience">Lets Go</a> </button>
+                  href="#experience">Take a look</a> </button>
             </div>
           </div>
         </div>
@@ -77,13 +80,30 @@
     </div>
   </header>
 
+  <!-- About me  -->
+
+  <div class="container py-5 img-fluid" id="aboutme">
+    <h2>About Me</h2> 
+    <div class="row py-5 g-5">
+      <div class="col-sm d-flex justify-content-center align-items-center">
+        <img src="./Images/smallProfile.jpg" alt="profileImage" width="250px" height="250px" class="p-3 m-3 rounded-3 shadow-sm about-me">
+      </div>
+      
+      <div class="col-sm d-flex justify-content-center align-items-center text-start">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci repellendus totam aliquid deleniti ullam maxime ea. Consectetur, fugiat placeat harum ipsum eaque voluptas nisi unde minima, dolore labore nihil autem. <br>
+        <br>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea voluptas eius iure quis quod, quam velit ratione iste dolore sequi magnam labore eaque cum maxime dignissimos laborum sint consectetur adipisci!
+      </div>
+    </div>
+  </div>
+
   <!-- Experience Timeline -->
 
   <div class="container-fluid py-5 text-center" id="experience">
     <div class="container py-3">
       <h2>Work Experience</h2>
     </div>
-    <div class="container">
+    <div class="container pt-3">
       <div class="main-timeline">
         <div class="timeline">
           <div class="icon"></div>
@@ -96,8 +116,8 @@
             </div>
           </div>
           <div class="timeline-content">
-            <h5 class="title">IT &amp; Network Administrator</h5>
-            <p class="description">
+            <h5 class="title text-start">IT &amp; Network Administrator</h5>
+            <p class="description text-start">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque
               scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu
               ultrices elit molestie.
@@ -134,8 +154,8 @@
             </div>
           </div>
           <div class="timeline-content">
-            <h5 class="title">Support Engineer</h5>
-            <p class="description">
+            <h5 class="title text-start">Support Engineer</h5>
+            <p class="description text-start">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque
               scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu
               ultrices elit molestie.
@@ -212,16 +232,16 @@
     <div class="container px-5">
       <div class="row">
         <div class="col-6">
-          <input type="text" class="form-control rounded-4" placeholder="First name" aria-label="First name" required>
+          <input type="text" class="form-control rounded-3 shadow" placeholder="First name" aria-label="First name" required>
         </div>
         <div class="col-6">
-          <input type="text" class="form-control rounded-4" placeholder="Last name" aria-label="Last name" required>
+          <input type="text" class="form-control rounded-3 shadow" placeholder="Last name" aria-label="Last name" required>
         </div>
       </div>
 
       <div class="col-12">
         <label for="exampleFormControlTextarea1" class="form-label "></label>
-        <textarea class="form-control rounded-3 " id="exampleFormControlTextarea1" rows="10"
+        <textarea class="form-control rounded-3 shadow" id="exampleFormControlTextarea1" rows="10"
           placeholder="Enter Your Message" required></textarea>
       </div>
       <br>
