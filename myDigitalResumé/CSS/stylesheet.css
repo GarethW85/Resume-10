@@ -17,6 +17,12 @@ h2 {
 }
 
 
+/* icon color styling */
+
+.icon-style {
+  color: #fff;
+}
+
 /* set form element to table so that we can style it */
 .btn-form {
   width: 20%;
@@ -49,8 +55,8 @@ color: text-white;
     background-color: #41a4f5;
     position: center;
     background-size: cover;
-    height: 100vh; //Change this as per design needs
-    width: 100%; //Change this as per design needs
+    height: 100vh; 
+    width: 100%; 
   }
 
 .main-color {
