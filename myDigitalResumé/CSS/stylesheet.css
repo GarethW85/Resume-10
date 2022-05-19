@@ -105,6 +105,13 @@ a:active {
 }
 
 
+@media screen and (max-width:820px) {
+  .skillImg {   
+    height: 75px;
+  }
+
+}
+
 
 /* Timeline styling */
 
