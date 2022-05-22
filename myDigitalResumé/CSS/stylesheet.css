@@ -38,6 +38,13 @@ h2 {
   border:2px solid black;
 }
 
+#profileHeadshot {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  
+}
 /* animation changes */
 
 .animation-style {
@@ -84,10 +91,18 @@ a:active {
   text-decoration: none; 
 }
 
+/* Background image */
+
+
+/* .backgroundImage {
+  background-image: url(https://via.placeholder.com/700x500);
+  background-color: #41a4f5;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 
 
 /* Media Queries */
-
 /* Phones and smaller */
 @media screen and (min-width:280px) and (max-width:420px) {
   .hero-section {
